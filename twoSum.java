@@ -1,4 +1,4 @@
-//BRUTE - FORCE
+//BRUTE - FORCE O(n^2)
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         for(int i=0;i<nums.length;i++)
@@ -16,7 +16,7 @@ return nums;
 }
 
 
-// USING HASHMAP
+// USING HASHMAP O(n)
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {
